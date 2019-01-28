@@ -123,7 +123,7 @@ font-family: 'Source Sans Pro', sans-serif;
 
 .cover {
   display: flex;
-  flex-flow: column wrap; 
+  flex-flow: column wrap;
   width: 100vw;
   height: 455px;
   font-family: 'Maven Pro', sans-serif;
@@ -176,4 +176,73 @@ font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.6em;
   line-height: 28px;
   width: 80%;
+}
+
+/*WRAPPER LATEST SECTION*/
+
+.latest-section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.latest-article {
+  width: 246px;
+  height: 203px;
+  margin: 12px;
+}
+
+.latest-article h2 {
+  font-size: 1em;
+}
+
+.latest-article h3 {
+  font-size: .7em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #AAAAAA;
+  font-weight: normal;
+}
+
+.latest-article div[id^="art"] {
+  width: 243px;
+  height: 130px;
+}
+
+#art-1 {
+  background: url(../img/latest-1.png);
+  background-size: 100% auto;
+}
+
+#art-2 {
+  background: url(../img/latest-7.png);
+  background-size: 100% auto;
+}
+
+#art-3 {
+  background: url(../img/latest-2.jpeg);
+  background-size: 100% auto;
+}
+
+#art-4 {
+  background: url(../img/latest-3.jpeg);
+  background-size: 100% auto;
+}
+
+#art-5 {
+  background: url(../img/latest-4.jpeg);
+  background-size: 100% auto;
+}
+
+#art-6 {
+  background: url(../img/latest-5.jpeg);
+  background-size: 100% auto;
+}
+
+#art-7 {
+  background: url(../img/latest-6.jpeg);
+  background-size: 100% auto;
+}
+
+#art-8 {
+  background: url(../img/latest-8.png);
+  background-size: 100% auto;
 }
