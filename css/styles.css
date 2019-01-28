@@ -1,0 +1,115 @@
+/* GENERAL RULES */
+
+html body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+/* 
+font-family: 'Ropa Sans', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; 
+*/
+
+.link-deco {
+  text-decoration: none;
+}
+
+/* NAV BAR */
+
+.nav-bar {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 110px;
+}
+
+.nav-logo {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 80px;
+  height: 106px;
+  background: darkgray;
+  display: none;
+}
+
+.nav-ul {
+  margin: 0;
+  padding: 0 0 0 21px;
+}
+
+.nav-li {
+  flex-flow: column nowrap;
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+.style-txt-line1 {
+  color: #AAAAAA;
+  font-size: .84em;
+}
+
+.style-txt-line2 {
+  color: #AAAAAA;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: .84em;
+}
+
+.nav-line1 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  height: 32px;
+  background: black;
+  align-self: center;
+  line-height: 32px;
+}
+
+.nav-line2 {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 48px;
+  background: white;
+  line-height: 48px;
+}
+
+.nav-search-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  position: absolute;
+  border-left: .5px solid #EEEEEE;
+  right: 0px;
+  color: #AAAAAA;
+  font-size: 1em;
+  text-align: center;
+}
+
+.nav-search-icon i {
+  display: flex;
+  flex-flow: row nowrap;
+  line-height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: scaleX(-1);
+
+}
+
+.nav-yellow-ad {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: auto;
+  height: 30px;
+  background: #ffdd33;
+  text-align: left;
+  line-height: 30px;
+  font-size: .84em;
+}
+
+.nav-yellow-ad a {
+  margin-left: 20px;
+  color: black;
+}
