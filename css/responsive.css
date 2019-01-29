@@ -1,3 +1,10 @@
+@media only screen and (min-width: 1024px) {
+  .wrapper {
+    margin: 0 auto;
+    max-width: 1192px;
+  }
+}
+
 @media only screen and (max-width: 1023px) {
   .nav-logo {
     display: flex;
@@ -21,6 +28,29 @@
   }
   .nav-ul li:nth-child(6) {
     display: none;
+  }
+  /* LATEST ARTICLES */
+  .wrapper {
+    padding: 0 2vw 0 2vw;
+  }
+  .latest-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .latest-article {
+    width: 30%;
+    height: auto;
+    margin: 6px;
+  }
+  .latest-article div[id^="art"] {
+    width: auto;
+    height: 154px;
+    max-height: 122px;
+  }
+  .hidden {
+    display: inherit;
+    visibility: hidden;
   }
 }
 

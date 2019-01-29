@@ -180,15 +180,28 @@ font-family: 'Source Sans Pro', sans-serif;
 
 /*WRAPPER LATEST SECTION*/
 
+.wrapper {
+  margin: 0 auto;
+}
+
+.latest-head {
+  width: 100%;
+  margin-top: 60px;
+  font-weight: bold;
+  color: #FF4422;
+}
+
 .latest-section {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .latest-article {
-  width: 246px;
-  height: 203px;
-  margin: 12px;
+  width: 23%;
+  min-width: 20%;
+  height: auto;
+  margin: 6px;
 }
 
 .latest-article h2 {
@@ -203,8 +216,12 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 .latest-article div[id^="art"] {
-  width: 243px;
+  width: auto;
   height: 130px;
+}
+
+.hidden {
+  display: none;
 }
 
 #art-1 {
@@ -213,36 +230,37 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 #art-2 {
-  background: url(../img/latest-7.png);
-  background-size: 100% auto;
+  background: url(../img/latest-7.png) center center;
+  /* background-size: 100% auto cover; */
+  
 }
 
 #art-3 {
-  background: url(../img/latest-2.jpeg);
+  background: url(../img/latest-2.jpeg) center center;
   background-size: 100% auto;
 }
 
 #art-4 {
-  background: url(../img/latest-3.jpeg);
+  background: url(../img/latest-3.jpeg) center center;
   background-size: 100% auto;
 }
 
 #art-5 {
-  background: url(../img/latest-4.jpeg);
+  background: url(../img/latest-4.jpeg) center center;
   background-size: 100% auto;
 }
 
 #art-6 {
-  background: url(../img/latest-5.jpeg);
+  background: url(../img/latest-5.jpeg) center center;
   background-size: 100% auto;
 }
 
 #art-7 {
-  background: url(../img/latest-6.jpeg);
+  background: url(../img/latest-6.jpeg) center center;
   background-size: 100% auto;
 }
 
 #art-8 {
-  background: url(../img/latest-8.png);
+  background: url(../img/latest-8.png) center center;
   background-size: 100% auto;
 }
