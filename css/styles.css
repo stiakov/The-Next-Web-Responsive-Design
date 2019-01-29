@@ -144,7 +144,7 @@ font-family: 'Source Sans Pro', sans-serif;
 .cover-main {
   width: 70%;
   height: 100%;
-  background: url(../img/descarga.jpeg);
+  background: url(../img/cover-main.jpeg);
   background-size: cover;
   display: flex;
   align-content: flex-start;
@@ -370,4 +370,205 @@ font-family: 'Source Sans Pro', sans-serif;
   width: 100%;
   background: rgba(255, 68, 34, .08);
   padding-top: 20px;
+}
+
+/* POPULAR SECTION */
+
+.popular-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+.popular-box {
+  width: 32%;
+  padding: 15px 0;
+}
+
+.pop-title-main {
+  color: #FF4422;
+}
+
+.pop-image-1 {
+  width: 100%;
+  height: 276px;
+  min-width: 230px;
+  display: flex;
+}
+
+.pop-inner-title {
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  align-self: flex-end;
+  margin: 15px;
+}
+
+.pop-image-2 {
+  width: 100%;
+  height: 96px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  background: rgba(255, 68, 34, .08);
+}
+
+.pop-title1 {
+  width: 65%;
+  color: red;
+  font-size: 1em;
+  line-height: 96px;
+  margin: 0 15px;
+}
+
+.pop-img-square {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  align-self: flex-end;
+}
+
+.popular-box ul {
+  list-style-type: none;
+  padding: 0 0;
+}
+
+.popular-box li {
+  font-size: .85em;
+  margin: 15px 0;
+  padding-bottom: 15px;
+  border-bottom: .5px solid rgb(226, 226, 226);
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.popular-box li::before {
+  content: "● ";
+  color: red;
+}
+
+#img1 {
+  background: url(../img/latest-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sq1 {
+  background: url(../img/pop-1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#img2 {
+  background: url(../img/latest-2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sq2 {
+  background: url(../img/pop-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#img3 {
+  background: url(../img/latest-3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sq3 {
+  background: url(../img/pop-3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#img4 {
+  background: url(../img/latest-5.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sq4 {
+  background: url(../img/pop-1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#img5 {
+  background: url(../img/latest-6.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sq5 {
+  background: url(../img/pop-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#img6 {
+  background: url(../img/latest-7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sq6 {
+  background: url(../img/pop-3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#img7 {
+  background: url(../img/latest-8.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sq7 {
+  background: url(../img/pop-1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#img8 {
+  background: url(../img/latest-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sq8 {
+  background: url(../img/pop-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#img9 {
+  background: url(../img/latest-6.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sq9 {
+  background: url(../img/pop-3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
