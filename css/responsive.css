@@ -52,6 +52,19 @@
     display: inherit;
     visibility: hidden;
   }
+
+  /* FUNDING SECTION */
+
+  .funding-box {
+    min-width: 229px;
+    max-width: 314px;
+    width: 32%;
+    height: auto;
+  }
+
+  .no-display{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -263,5 +276,26 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+  }
+
+  /* FUNDING SECTION */
+
+  .funding-section {
+    display: flex;
+    flex-flow: column nowrap !important;
+    width: 100%;
+    margin: 0 .5vw;
+  }
+
+  .funding-box {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    min-width: auto;
+    padding: 8px 0;
+  }
+
+  .no-display{
+    display: none;
   }
 }
