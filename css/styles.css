@@ -232,7 +232,6 @@ font-family: 'Source Sans Pro', sans-serif;
 #art-2 {
   background: url(../img/latest-7.png) center center;
   /* background-size: 100% auto cover; */
-  
 }
 
 #art-3 {
@@ -263,4 +262,90 @@ font-family: 'Source Sans Pro', sans-serif;
 #art-8 {
   background: url(../img/latest-8.png) center center;
   background-size: 100% auto;
+}
+
+/*FUNDING SECTION*/
+.funding-section{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.funding-image {
+  width: 60px;
+  height: 60px;
+  margin: 10px 10px;
+  float: left;
+}
+
+.funding-text {
+  width: 22%;
+  font-weight: bolder;
+  padding-left: 84px;
+  font-size: 1em;
+}
+
+.ft1 {
+  background: red;
+  color: white;
+  height: 40px;
+  line-height: 40px;
+}
+
+.ft2 {
+  background: rgba(255, 68, 34, .25);
+  color: black;
+  line-height: 58px;
+  height: 58px;
+}
+
+#fund-1 {
+  background: url(../img/funding-1.jpeg);
+  background-size: cover;
+}
+
+#fund-2 {
+  background: url(../img/funding-2.jpeg);
+  background-size: cover;
+}
+
+#fund-3 {
+  background: url(../img/funding-3.jpeg);
+  background-size: cover;
+}
+
+#fund-4 {
+  background: url(../img/funding-4.png);
+  background-size: cover;
+}
+
+.funding-box h4 {
+  width: 100%;
+  padding-bottom: 20px;
+  margin: 0;
+  font-size: .8em;
+  color: gray;
+  font-weight: lighter;
+}
+
+.ft-top-container {
+  background: rgba(255, 68, 34, .08);
+  padding-top: 16px;
+  width: 29%;
+  height: 51px;
+  padding-bottom: 10px;
+}
+
+.ft-top, .ft-middle, .ft-end {
+  padding-left: 16px;
+  line-height: .8em;
+}
+
+.ft-top-container i {
+  color: black;
+}
+
+.ft-bottom {
+  border-top: .5px solid rgba(255, 68, 34, .25);
+  width: 29%;
+  background: rgba(255, 68, 34, .08);
+  padding-top: 20px;
 }
