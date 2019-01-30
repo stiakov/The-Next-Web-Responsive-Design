@@ -711,29 +711,59 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 /*FOOTER STYLES*/
-
-footer {
-  width: 100%;
-  height: 91px;
-  color: gray;
+.footer {
+  color: #878787;
+  text-align: center;
+  margin-top: 2em;
 }
 
-.social {
-  background: rgba(85, 85, 85, 1);
+.footer-links {  
+  padding: 2em 0 0 0;
+  background-color: #131313;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  display: inline-block;
+}
+
+.footer-social a {
   display: block;
-  padding-top: 48px;
-  padding-bottom: 28px;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background-color: #333;
+  color: #fff;
 }
 
-.social li {
-  display: inline;
+.footer-social a:hover {  
+  background-color: #131313;
 }
 
-.legal {
+.footer-menu h6 {
+  font-size: 12px;
+  margin: 0;
+}
+
+.footer-menu li {
+  padding: 5px;
+}
+
+
+.legal{
   background: black;
   width: 100%;
   height: 19px;
   padding: 39px 0 39px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #span-1 {
