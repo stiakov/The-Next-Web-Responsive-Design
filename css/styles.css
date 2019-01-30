@@ -4,17 +4,18 @@ html body {
   padding: 0;
   margin: 0;
   font-family: Helvetica, sans-serif;
-  border-right: 1px solid #FF4422;
-  -webkit-box-sizing: border-box;
+  border-right: 1px solid blue;
+  border-left: 1px solid green;
+  /* -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: border-box; */
 }
 
-*, *:before, *:after {
+/* *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
-}
+} */
 
 /* 
 font-family: 'Ropa Sans', sans-serif;
@@ -31,7 +32,7 @@ font-family: 'Source Sans Pro', sans-serif;
 .nav-bar {
   display: flex;
   flex-flow: column wrap;
-  width: 100%;
+  width: 100vw;
   height: 110px;
 }
 
@@ -136,6 +137,7 @@ font-family: 'Source Sans Pro', sans-serif;
   flex-flow: column wrap;
   width: 100vw;
   height: 455px;
+  min-height: 424px; 
   font-family: 'Maven Pro', sans-serif;
   color: white;
   font-size: 14px;
@@ -163,6 +165,7 @@ font-family: 'Source Sans Pro', sans-serif;
 
 .side-article {
   width: 29%;
+  min-width: 241px;;
   height: 50%;
   display: flex;
   align-content: flex-start;
@@ -351,7 +354,8 @@ font-family: 'Source Sans Pro', sans-serif;
 
 .funding-box h4 {
   width: 100%;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin: 0;
   font-size: .8em;
   color: gray;
@@ -362,8 +366,11 @@ font-family: 'Source Sans Pro', sans-serif;
   background: rgba(255, 68, 34, .08);
   padding-top: 16px;
   width: 100%;
-  height: 51px;
+  height: auto;
   padding-bottom: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
 }
 
 .ft-top, .ft-middle, .ft-end {
@@ -379,7 +386,8 @@ font-family: 'Source Sans Pro', sans-serif;
   border-top: .5px solid rgba(255, 68, 34, .25);
   width: 100%;
   background: rgba(255, 68, 34, .08);
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* POPULAR SECTION */

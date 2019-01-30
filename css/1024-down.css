@@ -1,17 +1,18 @@
-@media only screen and (max-width: 1023px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+  
   .nav-bar {
     display: flex;
     flex-flow: column wrap;
-    width: 100%;
+    width: 100vw;
     height: 110px;
   }
 
   .nav-line1 {
     display: flex;
-    flex-flow: row wrap;
-    /* flex-grow : 1; */
+    flex-flow: row nowrap;
+    width: calc(100% - 90px);
     height: 32px;
-    width: calc(100vw - 90px);
     background: black;
     align-self: center;
     line-height: 32px;
@@ -20,8 +21,7 @@
   .nav-line2 {
     display: flex;
     flex-flow: row wrap;
-    flex-grow : 1;
-    width: calc(100vw - 90px);
+    width: calc(100% - 90px);
     height: 48px;
     background: white;
     line-height: 48px;
@@ -30,10 +30,10 @@
   .nav-yellow-ad {
     display: flex;
     flex-flow: column wrap;
-    flex-grow: 1;
     justify-content: flex-start;
     height: 30px;
     background: #ffdd33;
+    /* width: 100%; */
     text-align: left;
     line-height: 30px;
     font-size: .84em;
@@ -46,6 +46,7 @@
     height: 80px;
     background: #FF4422;
     justify-content: center;
+    background: linear-gradient(130deg, rgba(204,0,149,1) 0%, rgba(204,0,149,1) 17%, rgba(255,0,0,1) 100%);
   }
   .nav-logo img {
     width: 80%;
@@ -62,6 +63,35 @@
   .nav-ul li:nth-child(6) {
     display: none;
   }
+  /* COVER ARTICLES */
+  .cover {
+    /* margin-top: -8px; */
+    display: flex;
+    width: 98%;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: -13px auto 0 auto;
+  }
+  .cover-article {
+    /* margin: 5px auto; */
+  }
+  .cover-main {
+    width: 68%;
+    max-height: 424px;
+    height: 100%;
+  }
+  .side-article {
+    max-width: 28%;
+    max-height: 208px;
+  }
+  .side-1 {
+    margin-bottom: 5px;
+  }
+  
+  .side-2 {
+    margin-top: 5px;
+  }
+  
   /* LATEST ARTICLES */
   .wrapper {
     padding: 0 2vw 0 2vw;
