@@ -395,6 +395,7 @@ font-family: 'Source Sans Pro', sans-serif;
   height: 276px;
   min-width: 230px;
   display: flex;
+  margin-bottom: 2px;
 }
 
 .pop-inner-title {
