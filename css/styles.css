@@ -159,7 +159,7 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 .side-1 {
-  background: url(../img/side1.jpeg);
+  background: url(../img/cover-side-1.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -403,6 +403,7 @@ font-family: 'Source Sans Pro', sans-serif;
   flex-flow: column nowrap;
   align-self: flex-end;
   margin: 15px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .pop-image-2 {
