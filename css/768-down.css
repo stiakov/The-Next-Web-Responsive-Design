@@ -25,6 +25,9 @@
     justify-content: center;
     background: linear-gradient(130deg, rgba(204, 0, 149, 1) 0%, rgba(204, 0, 149, 1) 17%, rgba(255, 0, 0, 1) 100%);
   }
+  .nav-logo:before {
+    background: linear-gradient(130deg, rgba(204, 0, 149, 1) 0%, rgba(204, 0, 149, 1) 17%, rgba(255, 0, 0, 1) 100%);
+  }
   .nav-logo img {
     width: 65%;
     height: auto;
@@ -239,7 +242,6 @@
     width: 98%;
     height: auto;
     max-width: 100%;
-    min-width: auto;
     padding: 8px 0;
   }
   .funding-box h4 {
