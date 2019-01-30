@@ -4,6 +4,16 @@ html body {
   padding: 0;
   margin: 0;
   font-family: Helvetica, sans-serif;
+  border-right: 1px solid #FF4422;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 /* 
@@ -383,6 +393,7 @@ font-family: 'Source Sans Pro', sans-serif;
 
 .popular-box {
   width: 32%;
+  min-width: 312px;
   padding: 15px 0;
 }
 
