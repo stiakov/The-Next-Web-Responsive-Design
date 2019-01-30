@@ -39,6 +39,9 @@
     height: 80px;
     background: #FF4422;
     justify-content: center;
+  }
+
+  .nav-logo:before {
     background: linear-gradient(130deg, rgba(204, 0, 149, 1) 0%, rgba(204, 0, 149, 1) 17%, rgba(255, 0, 0, 1) 100%);
   }
   .nav-logo img {
