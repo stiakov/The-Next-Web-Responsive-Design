@@ -1,0 +1,155 @@
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .nav-bar {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100vw;
+    height: 110px;
+  }
+  .nav-line1 {
+    display: flex;
+    flex-flow: row nowrap;
+    width: calc(100% - 90px);
+    height: 32px;
+    background: black;
+    align-self: center;
+    line-height: 32px;
+  }
+  .nav-line2 {
+    display: flex;
+    flex-flow: row wrap;
+    width: calc(100% - 90px);
+    height: 48px;
+    background: white;
+    line-height: 48px;
+  }
+  .nav-yellow-ad {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    height: 30px;
+    background: #ffdd33;
+    text-align: left;
+    line-height: 30px;
+    font-size: .84em;
+  }
+  .nav-logo {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90px;
+    height: 80px;
+    background: #FF4422;
+    justify-content: center;
+  }
+
+  .nav-logo:before {
+    background: linear-gradient(130deg, rgba(204, 0, 149, 1) 0%, rgba(204, 0, 149, 1) 17%, rgba(255, 0, 0, 1) 100%);
+  }
+  .nav-logo img {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .nav-yellow-ad {
+    margin-left: -90px;
+  }
+  .nav-ul li:last-child {
+    display: none;
+  }
+  .nav-ul li:nth-child(6) {
+    display: none;
+  }
+  /* 
+  =================== COVER ARTICLES ===================
+  */
+  .cover {
+    display: flex;
+    width: 98%;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: -13px auto 0 auto;
+  }
+  .cover-main {
+    width: 68%;
+    max-height: 424px;
+    height: 100%;
+  }
+  .side-article {
+    max-width: 28%;
+    max-height: 208px;
+  }
+  .side-1 {
+    margin-bottom: 5px;
+  }
+  .side-2 {
+    margin-top: 5px;
+  }
+  /* LATEST ARTICLES */
+  .wrapper {
+    padding: 0 2vw 0 2vw;
+  }
+  .latest-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .latest-article {
+    width: 30%;
+    height: auto;
+    margin: 6px;
+  }
+  .latest-article div[id^="art"] {
+    width: auto;
+    height: 154px;
+    max-height: 122px;
+  }
+  .hidden {
+    display: inherit;
+    visibility: hidden;
+  }
+  /* FUNDING SECTION */
+  .funding-box {
+    min-width: 229px;
+    max-width: 314px;
+    width: 32%;
+    height: auto;
+  }
+  .no-display {
+    display: none;
+  }
+  /* POPULAR SECTION */
+  .popular-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 30px auto;
+  }
+  .popular-box {
+    width: 48%;
+    min-width: 354px;
+    padding: 15px 0;
+  }
+  /* DEALS SECTION */
+  .wrapper {
+    padding: 0 2vw 0 2vw;
+  }
+  .deals-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .deals-article {
+    width: 30%;
+    height: auto;
+    margin: 6px;
+  }
+  .deals-article div[id^="art"] {
+    width: auto;
+    height: 154px;
+    max-height: 122px;
+  }
+  .hidden {
+    display: inherit;
+    visibility: hidden;
+  }
+}

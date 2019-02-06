@@ -1,0 +1,360 @@
+@media only screen and (max-width: 768px) {
+  .clear {
+    clear: both;
+  }
+
+  .hidden {
+    display: none;
+    visibility: collapse;
+  }
+  /*
+  =================== NAV BAR RESPONSIVE ===================
+  */
+  .nav-bar {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    height: 78px;
+  }
+  .nav-logo {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 106px;
+    height: 48px;
+    background: #FF4422;
+    justify-content: center;
+    background: linear-gradient(130deg, rgba(204, 0, 149, 1) 0%, rgba(204, 0, 149, 1) 17%, rgba(255, 0, 0, 1) 100%);
+  }
+  .nav-logo:before {
+    background: linear-gradient(130deg, rgba(204, 0, 149, 1) 0%, rgba(204, 0, 149, 1) 17%, rgba(255, 0, 0, 1) 100%);
+  }
+  .nav-logo img {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: left;
+  }
+  .nav-line1 {
+    display: none;
+  }
+  .nav-line2 {
+    display: none;
+  }
+  .nav-search-responsive {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    position: absolute;
+    border-left: .5px solid #EEEEEE;
+    border-right: .5px solid #EEEEEE;
+    right: 0;
+    color: #AAAAAA;
+    font-size: 1em;
+    text-align: center;
+  }
+  .nav-search-icon i {
+    display: flex;
+    flex-flow: row nowrap;
+    line-height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scaleX(-1);
+  }
+  .nav-search-responsive {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    color: #AAAAAA;
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    right: 49px;
+  }
+  .nav-menu-responsive {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    color: #AAAAAA;
+    font-size: 1.5em;
+    text-align: center;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-yellow-ad {
+    margin-left: 0;
+  }
+  /*
+  =================== COVER ARTICLES===================
+  */
+  .cover {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-items: center;
+    width: 98%;
+    height: auto;
+    font-family: 'Maven Pro', sans-serif;
+    color: white;
+    padding: 2px 0 3px 0;
+    margin: 0 auto 0 auto;
+  }
+  .cover-main {
+    max-width: 100%;
+    background-repeat: no-repeat;
+  }
+  .cover-main h1 {
+    margin-top: auto;
+    align-self: flex-start;
+  }
+  .cover-article {
+    font-size: 1.2em;
+    width: 100vw;
+    height: 180px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 8px;
+    justify-self: flex-end;
+  }
+  .side-article {
+    max-width: 100%;
+    font-size: 1.2em;
+  }
+  .side-1, .side-2 {
+    background-size: cover;
+  }
+  .side-1 h1, .side-2 h1 {
+    font-size: 1em;
+    align-self: flex-start;
+    width: 80%;
+    margin-top: auto;
+  }
+  .cover h1 {
+    font-size: 1.2em;
+    padding-left: 10px;
+    line-height: 24px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+  }
+  /*
+  =================== LATEST SECTION ARTICLES ===================
+  */
+  .wrapper {
+    margin: 0 auto;
+  }
+  .latest-section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .latest-article {
+    display: flex;
+    flex-flow: column wrap;
+    width: 97%;
+    height: 75px;
+    margin-bottom: 8px;
+  }
+  .latest-article div[id^="art"] {
+    width: 75px;
+    height: 75px;
+  }
+  .latest-article h2 {
+    font-size: .95em;
+    width: calc(100% - 110px);
+    margin-top: 0;
+    margin-left: 13px;
+  }
+  .latest-article h3 {
+    width: calc(100% - 110px);
+    font-size: .85em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #AAAAAA;
+    font-weight: normal;
+    margin-top: 0;
+    margin-left: 13px;
+  }
+  #art-1 {
+    background: url(../img/latest-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  #art-2 {
+    background: url(../img/latest-7.png) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  #art-3 {
+    background: url(../img/latest-2.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  #art-4 {
+    background: url(../img/latest-3.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  #art-5 {
+    background: url(../img/latest-4.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  #art-6 {
+    background: url(../img/latest-5.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  #art-7 {
+    background: url(../img/latest-6.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  #art-8 {
+    background: url(../img/latest-8.png) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  /* 
+  =================== FUNDING SECTION ===================
+  */
+  .funding-section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: auto;
+    margin: 0 .5vw;
+  }
+  .funding-box {
+    width: 98%;
+    height: auto;
+    max-width: 100%;
+    padding: 8px 0;
+  }
+  .funding-box h4 {
+    width: calc(100% - 30px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    font-size: .8em;
+    color: gray;
+    font-weight: lighter;
+  }
+  .no-display {
+    display: none;
+  }
+  /* 
+  =================== POPULAR SECTION ===================
+  */
+  .popular-section {
+    display: flex;
+    height: auto;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .popular-box {
+    width: 97%;
+    height: auto;
+    padding: 15px 0;
+  }
+  .pop-image-1 {
+    width: 100%;
+    height: calc(100vw - 200px);
+    display: flex;
+    margin-bottom: 2px;
+  }
+  /* 
+  =================== DEALS SECTION ==================
+  */
+  .deals-section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .deals-article {
+    display: flex;
+    flex-flow: column wrap;
+    width: 97%;
+    height: 75px;
+    margin-bottom: 8px;
+  }
+  .prices {
+    height: 10px;
+    line-height: 10px;
+  }
+  .deals-article div[id^="deals"] {
+    width: 75px;
+    height: 75px;
+  }
+  .deals-article h2 {
+    font-size: .95em;
+    width: calc(100% - 110px);
+    margin-top: 0;
+    margin-left: 13px;
+  }
+  .deals-article h3 {
+    width: calc(100% - 110px);
+    font-size: .85em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #AAAAAA;
+    font-weight: normal;
+    margin-top: 0;
+    margin-left: 13px;
+  }
+  #deals-1 {
+    background: url(../img/deals-1.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #deals-2 {
+    background: url(../img/deals-2.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #deals-3 {
+    background: url(../img/deals-3.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #deals-4 {
+    background: url(../img/deals-4.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #deals-5 {
+    background: url(../img/deals-5.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #deals-6 {
+    background: url(../img/deals-6.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #deals-7 {
+    background: url(../img/deals-7.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #deals-8 {
+    background: url(../img/deals-8.jpeg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+}
